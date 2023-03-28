@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Responsive Website</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 20px;
+			box-sizing: border-box;
+		}
+		.header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		.menu {
+			background-color: #f2f2f2;
+			padding: 10px;
+			text-align: center;
+		}
+		.menu ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: inline-block;
+		}
+		.menu li {
+			display: inline-block;
+			margin: 0 10px;
+		}
+		.content {
+			padding: 20px;
+			text-align: justify;
+		}
+		.footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		@media (max-width: 768px) {
+			.container {
+				padding: 0 10px;
+			}
+			.menu ul {
+				display: block;
+			}
+			.menu li {
+				display: block;
+				margin: 10px 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header class="header">
+		<h1>My Responsive Website</h1>
+	</header>
+	<nav class="menu">
+		<div class="container">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+	</nav>
+	<main class="content">
+		<div class="container">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac purus sed sapien rhoncus elementum. Nunc non mi non ex commodo porttitor. Integer nec ipsum eget sapien aliquam eleifend. Sed aliquam tristique ante, ac faucibus quam ultrices quis. Nullam at consequat nunc, vel imperdiet justo. Sed ac augue quam. Ut in leo nec nibh rutrum feugiat.</p>
+			<p>Pellentesque et mauris a est venenatis commodo in sed nulla. Maecenas maximus metus ut ipsum interdum, ac facilisis nisl malesuada. Nunc fringilla orci quis mauris lacinia lobortis. Morbi porta orci at metus gravida vehicula. Nunc fringilla vitae augue in viverra. Vivamus elementum sapien vel turpis commodo, eu accumsan orci tempor. Sed nec ipsum auctor, malesuada velit eu, commodo risus. Sed elementum, tellus sit amet bibendum vestibulum, lorem risus faucibus tellus, sed posuere leo
